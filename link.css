@@ -4,14 +4,14 @@
   --text: hsl(0, 0%, 99%);
   --textDim: hsl(0, 0%, 60%);
   --background: hsl(0, 0%, 7%);
-  --primary: hsl(155, 100%, 65%);
+  --primary: hsl(0, 0%, 23%);
   --primaryBg: hsla(155, 100%, 65%, 1%);
-  --primaryHi: hsla(155, 100%, 75%, 25%);
-  --primaryFg: hsl(155, 100%, 85%);
-  --secondary: hsl(156, 51%, 14%);
-  --secondaryFg: hsl(156, 51%, 75%);
-  --secondaryBg: hsla(156, 51%, 14%, 5%);
-  --secondaryHi: hsla(156, 51%, 30%, 50%);
+  --primaryHi: hsla(269, 100%, 75%, 0.25);
+  --primaryFg: hsl(287, 100%, 85%);
+  --secondary: hsl(295, 52%, 14%);
+  --secondaryFg: hsl(288, 51%, 75%);
+  --secondaryBg: hsla(292, 52%, 14%, 0.05);
+  --secondaryHi: hsla(285, 40%, 45%, 0.5);
   --accent: hsl(155, 100%, 94%);
   --accentBg: hsla(155, 100%, 94%, 1%);
   --accentHi: hsla(155, 100%, 100%, 25%);
@@ -103,11 +103,11 @@ nav {
 
 .title > p:nth-child(2){
   color: var(--primary);
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .title > p:nth-child(3){
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .material-icons {
